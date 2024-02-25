@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #47009c;
+  --secondary-color: #e81668;
+  --tertiary-color: #7c7c7c;
+  --background-color: #fcfcfc;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 500;
+  background: -webkit-linear-gradient(
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.table-column {
+  border: 1px solid var(--tertiary-color);
+}
+
+input {
+  width: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+.average-input {
+  border: 1px solid var(--tertiary-color);
+}
